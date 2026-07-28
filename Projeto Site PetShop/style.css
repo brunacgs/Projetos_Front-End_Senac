@@ -14,12 +14,11 @@ nav, footer{
     font-size: 15px;
     border-top: 5px solid #4a3525;
     border-bottom: 5px solid #4a3525;
-    border-left: 10px solid #4a3525;
+    border-left: 15px solid #4a3525;
 }
 
 a{
     color: #e8e2d0;
-    text-decoration: none;
 }
 a:hover{
     font-weight: bold;
@@ -118,4 +117,12 @@ input:focus, textarea:focus{
     transform: scale(0.95);
 }
 
+.iconescontato{
+    background-color: #e8e2d0;
+    text-align: left;
+    border: none;
+}
 
+img{
+    border-radius: 10px;
+}
