@@ -1,11 +1,121 @@
-header{
+body{
+    background-color: #cdd2c9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
     background-color: #e8e2d0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-nav{
+nav, footer{
     background-color: #4a3525;
-    -webkit-text-fill-color: #e8e2d0;
+    color: #e8e2d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-top: 5px solid #4a3525;
+    border-bottom: 5px solid #4a3525;
+    border-left: 10px solid #4a3525;
 }
-footer{
+
+a{
+    color: #e8e2d0;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+
+h1, h2, h3{
+    color: #4a3525;
+    line-height: 1.5;
+}
+
+.cabeçalho{
+    background-color: #e8e2d0;
+    border-radius: 5px;
+}
+
+.slogan1, .início{
+    background-color: #e8e2d0;
+    border-radius: 5px;
+    text-align: center;
+    border-top: 5px solid #e8e2d0;
+    border-bottom: 5px solid #e8e2d0;
+}
+
+.slogan2{
+    text-align: center;
+}
+.slogan3{
+    text-align: center;
+}
+.slogan4{
+    text-align: right;
+    padding-right: 300px;
+}
+
+.sobre, .produtos, .serviços{
+    background-color: #e8e2d0;
+    text-align: left;
+    text-align: justify;
+    border-top: 10px solid #e8e2d0;
+    border-bottom: 20px solid #e8e2d0;
+    border-left: 20px solid #e8e2d0;
+    border-right: 15px solid #e8e2d0;
+}
+
+.contato{
+    background-color: #e8e2d0;
+    text-align: center;
+    border-top: 5px solid #e8e2d0;
+    border-bottom: 5px solid #e8e2d0;
+    border-left: 20px solid #e8e2d0;
+    border-right: 15px solid #e8e2d0;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+fieldset{
+    margin: 0 auto;
+    padding: 10px 50px 5px 50px;
+    background-color: #cdd2c9;
+    text-align: justify;
+    border: 2px solid #cdd2c9;
+    border-radius: 5px;
+    color:#4a3525
+}
+
+
+input, textarea{
+    width: 100%;
+    background-color: #e8e2d0;
+    color:#4a3525;
+    border: 1px solid #4a3525;
+    border-radius: 5px;
+    padding: 2px;
+}
+input:focus, textarea:focus{
+    background-color: #e8e2d0;
+    color: #4a3525;
+    border: 2px solid #4a3525;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+.botãoenviar{
     background-color: #4a3525;
-    -webkit-text-fill-color: #e8e2d0;
+    font-weight: bold;
+    color: #e8e2d0;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #4a3525;
 }
+.botãoenviar:hover{
+    transform: translateY(-3px);
+}
+.botãoenviar:active{
+    transform: scale(0.95);
+}
+
+
