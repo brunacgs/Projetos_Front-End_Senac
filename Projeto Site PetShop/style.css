@@ -90,11 +90,6 @@ main{
 
     form{
         max-width: 600px;
-        margin: 0 auto;
-    }
-    
-    form{
-        max-width: 600px;
         width: 100%;
         margin: 0 auto;
     
@@ -170,24 +165,8 @@ main{
             transform: translateY(0);
             box-shadow: 0 2px 4px gray;
         }        
-
     }
 
-    .iconescontatos{
-        background-color: #cdd2c9;
-        padding: 2%; 
-        border-radius: 10px;
-        text-align: center;
-        width: 100%;
-        a{
-            color: #4a3525;
-            text-decoration: none;
-        }
-        a:hover{
-            font-weight: bold;   
-        }
-  
-    }
 }
 
 footer{
