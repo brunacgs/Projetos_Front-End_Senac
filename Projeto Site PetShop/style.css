@@ -1,54 +1,44 @@
 body{
-    background-color: #cdd2c9;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-main{
+
+header{
     background-color: #e8e2d0;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
 }
+
 nav, footer{
     background-color: #4a3525;
-    color: #e8e2d0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #e8e2d0;
     font-size: 15px;
-    border-top: 5px solid #4a3525;
-    border-bottom: 5px solid #4a3525;
-    border-left: 15px solid #4a3525;
+    padding: 15px;
 }
 
 a{
     color: #e8e2d0;
+    
 }
 a:hover{
     font-weight: bold;
 }
 
-h1, h2, h3{
-    color: #4a3525;
-    line-height: 1.5;
-}
-
-.cabeçalho{
+main{
     background-color: #e8e2d0;
-    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4a3525
 }
 
-.slogan1, .início{
-    background-color: #e8e2d0;
-    border-radius: 5px;
+.section1{
     text-align: center;
-    border-top: 5px solid #e8e2d0;
-    border-bottom: 5px solid #e8e2d0;
 }
 
-.slogan2{
-    text-align: center;
-}
-.slogan3{
-    text-align: center;
-}
-.slogan4{
+.section2{
     text-align: right;
     padding-right: 300px;
 }
@@ -57,30 +47,23 @@ h1, h2, h3{
     background-color: #e8e2d0;
     text-align: left;
     text-align: justify;
-    border-top: 10px solid #e8e2d0;
-    border-bottom: 20px solid #e8e2d0;
-    border-left: 20px solid #e8e2d0;
-    border-right: 15px solid #e8e2d0;
+    padding: 15px;
 }
 
 .contato{
     background-color: #e8e2d0;
+    padding: 15px;
     text-align: center;
-    border-top: 5px solid #e8e2d0;
-    border-bottom: 5px solid #e8e2d0;
-    border-left: 20px solid #e8e2d0;
-    border-right: 15px solid #e8e2d0;
-    padding-left: 250px;
-    padding-right: 250px;
+    
 }
 
 
 fieldset{
     margin: 0 auto;
-    padding: 10px 50px 5px 50px;
+    padding: 20px;
     background-color: #cdd2c9;
     text-align: justify;
-    border: 2px solid #cdd2c9;
+    border-style: none;
     border-radius: 5px;
     color:#4a3525
 }
@@ -123,6 +106,6 @@ input:focus, textarea:focus{
     border: none;
 }
 
-img{
+.imgfachada{
     border-radius: 10px;
 }
