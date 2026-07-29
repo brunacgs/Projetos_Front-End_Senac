@@ -1,128 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #cdd2c9;
+    background-color:  #cdd2c9;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header{
+    background-color: #e8e2d0;
+    margin: 1% 1% 0% 1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.logo{
+    height: 15vh;
+}
+.caramelo{
+        position: absolute;
+        bottom: 0;
+        left: -70px;
+        height: 28vh;
+    }
+
+nav{
+    background-color: #4a3525;
+    margin: 0% 1%;
+    padding: 1% 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #e8e2d0;
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: #e8e2d0;
+        text-decoration: none;
+    }
+    a:hover{
+        font-weight: bold;   
+    }
+}
+
 main{
     background-color: #e8e2d0;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-nav, footer{
-    background-color: #4a3525;
-    color: #e8e2d0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border-top: 5px solid #4a3525;
-    border-bottom: 5px solid #4a3525;
-    border-left: 15px solid #4a3525;
-}
-
-a{
-    color: #e8e2d0;
-}
-a:hover{
-    font-weight: bold;
-}
-
-h1, h2, h3{
-    color: #4a3525;
-    line-height: 1.5;
-}
-
-.cabeçalho{
-    background-color: #e8e2d0;
-    border-radius: 5px;
-}
-
-.slogan1, .início{
-    background-color: #e8e2d0;
-    border-radius: 5px;
-    text-align: center;
-    border-top: 5px solid #e8e2d0;
-    border-bottom: 5px solid #e8e2d0;
-}
-
-.slogan2{
-    text-align: center;
-}
-.slogan3{
-    text-align: center;
-}
-.slogan4{
-    text-align: right;
-    padding-right: 300px;
-}
-
-.sobre, .produtos, .serviços{
-    background-color: #e8e2d0;
-    text-align: left;
-    text-align: justify;
-    border-top: 10px solid #e8e2d0;
-    border-bottom: 20px solid #e8e2d0;
-    border-left: 20px solid #e8e2d0;
-    border-right: 15px solid #e8e2d0;
-}
-
-.contato{
-    background-color: #e8e2d0;
-    text-align: center;
-    border-top: 5px solid #e8e2d0;
-    border-bottom: 5px solid #e8e2d0;
-    border-left: 20px solid #e8e2d0;
-    border-right: 15px solid #e8e2d0;
-    padding-left: 250px;
-    padding-right: 250px;
-}
-
-
-fieldset{
-    margin: 0 auto;
-    padding: 10px 50px 5px 50px;
-    background-color: #cdd2c9;
-    text-align: justify;
-    border: 2px solid #cdd2c9;
-    border-radius: 5px;
-    color:#4a3525
-}
-
-
-input, textarea{
-    width: 100%;
-    background-color: #e8e2d0;
-    color:#4a3525;
-    border: 1px solid #4a3525;
-    border-radius: 5px;
-    padding: 2px;
-}
-input:focus, textarea:focus{
-    background-color: #e8e2d0;
-    color: #4a3525;
-    border: 2px solid #4a3525;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-
-.botãoenviar{
-    background-color: #4a3525;
-    font-weight: bold;
-    color: #e8e2d0;
-    padding: 5px;
-    box-shadow: 2px 2px 5px #4a3525;
-}
-.botãoenviar:hover{
-    transform: translateY(-3px);
-}
-.botãoenviar:active{
-    transform: scale(0.95);
-}
-
-.iconescontato{
-    background-color: #e8e2d0;
-    text-align: left;
-    border: none;
-}
-
-img{
+    margin: 1%;
+    padding: 3%;
     border-radius: 10px;
+    color: #4a3525;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+
+    /* Início */
+    .t1{
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .t2{
+        text-align: left;
+    }
+    .t3{
+        color: #4a3525;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Quem Somos */
+    /* Produtos */
+    /* Serviços */
+
+    /* Contatos */
+    .endereço{
+        text-align: center;
+    }
+    .fachada{
+        border-radius: 10px;
+    }
+    .contatos{
+        text-align: center;
+    }
+
+    form{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    form{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    
+        fieldset{
+            background-color: #cdd2c9;
+            padding: 24px;
+            border-style: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px gray;
+            display: flex;
+            flex-direction: column;
+            gap:24px;
+        }
+
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+            text-align: left;
+        }
+
+        label{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #4a3525;
+            cursor: pointer;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 16px;
+            color: #4a3525;
+            background-color: #e8e2d0;
+            border-color: #4a3525;
+            border-radius: 5px;
+            border: 1px solid #4a3525;
+            outline: none;
+        }
+
+        input:focus, textarea:focus{
+            box-shadow: 0 0 3px gray;
+        }
+
+        input::placeholder, textarea::placeholder{
+            color: #4a3525;
+        }
+
+        .botaoenviar{
+            align-self: flex-end;
+            padding: 10px 24px;
+            width: auto;
+            background-color: #4a3525;
+            color: #e8e2d0;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 2px 4px gray;
+        }
+
+        .botaoenviar:hover{
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px gray;
+        }
+
+        .botaoenviar:active{
+            transform: translateY(0);
+            box-shadow: 0 2px 4px gray;
+        }        
+
+    }
+
+    .iconescontatos{
+        background-color: #cdd2c9;
+        padding: 2%; 
+        border-radius: 10px;
+        text-align: center;
+        width: 100%;
+        a{
+            color: #4a3525;
+            text-decoration: none;
+        }
+        a:hover{
+            font-weight: bold;   
+        }
+  
+    }
+}
+
+footer{
+    margin: 0% 1% 1% 1%;
+    padding: 1% 5%;
+    background-color: #4a3525;
+    color: #e8e2d0;
+    border-radius: 10px;
+    padding: 1%;
+    
 }
