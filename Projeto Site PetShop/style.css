@@ -87,6 +87,12 @@ main{
     .contatos{
         text-align: center;
     }
+    
+    .iconecontato{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
     form{
         max-width: 600px;
