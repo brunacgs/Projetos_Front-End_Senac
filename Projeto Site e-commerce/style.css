@@ -1,0 +1,19 @@
+body{
+    background-color: #032933;
+    font-family: playfair display; GFS Didot;
+}
+
+.barrainicio{
+    display: flex;
+    color: #c58a6a
+}
+
+.intro{
+    display: flex;
+    padding: 50px;
+
+}
+
+.card{
+    border-style: groove;
+}
