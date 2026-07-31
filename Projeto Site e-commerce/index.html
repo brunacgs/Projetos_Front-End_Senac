@@ -4,59 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contra-Senso Design</title>
+
+    <!-- Importa fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
     <link rel= stylesheet href="style.css">
 </head>
 <body>
-    <div class="barrainicio">
-        <header>
-            <img src="images\logo_icones\contra-senso2.png" class="logo" alt="Logo da marca Contra-Senso Design" width="300px">
-        </header>
+    <header>
+        <a href="index.html">
+            <img src="images\logo_icones\contra-senso.png" class="logolink" alt="Logo da empresa Contra-Senso Design">
+        </a>
         <nav>
-            <a href="sobre.html">Sobre</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contato.html">Contato</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="institucional.html">Institucional</a></li>
+            </ul>
         </nav>
-    </div>
+    </header>    
     <main>
         <section class="intro">
-            <div>
-                <h1>Onde a forma ignora completamente a função</h1>
-                <button>Conheça nossos produtos</button>
+            <div class="introtexto">
+                <h1>Design que desafia a lógica</h1>
+                <h1>Objetos que ignoram a função</h1>
+                <button type="button">Conheça nossos produtos</button>
                 <h2>Encontre problemas para soluções que você já tem.</h2>
             </div>
-            <div>
-                <img src="images\gastronomia_conflitante\caneca.png" class="imginicio" width="300px" alt="">
+            <div class="slideshow">
+                <img src="images\logo_icones\canecainicio.png" class="slide">
+                <img src="images\logo_icones\cadeirainicio.png" class="slide">
+                <img src="images\logo_icones\cuboinicio.png" class="slide">
+                <img src="images\logo_icones\relogioinicio.png" class="slide">
             </div>
         </section>
-        <section class="cards">
+        <section class="cardsinicio">
             <div class="card">
-                <h3>Interiores Improváveis</h3>
-                <img src="images\interiores_improvaveis\porta_retrato_erro.png">
-                <h4>Porta Retrato de memória curta</h4>
-                <p>Um porta-retrato digital que apaga a foto e exibe um erro de sistema sempre que você tenta mostrá-la para alguém. Para valorizar o momento presente.</p>
+                <h2>Interiores Improváveis</h2>
+                <img src="images\interiores_improvaveis\cadeira.png">
+                <h3>Decoração hostil e sincera.</h3>
+                <h3>Itens para quem prefere manter a distância social com elegância.</h3>
             </div>
             <div class="card">
-                <h3></h3>
-                <img src="">
-                <h4></h4>
-                <p></p>
+                <h2>Gastronomia Conflitante</h2>
+                <img src="images\gastronomia_conflitante\caneca.png">
+                <h3>Utensílios de cozinha desafiadores.</h3>
+                <h3>Trasforme o ato de cozinhar/comer em um teste de paciência e habilidade.</h3>
             </div>
             <div class="card">
-                <h3></h3>
-                <img src="">
-                <h4></h4>
-                <p></p>
+                <h2>Estilo Incomum</h2>
+                <img src="images\estilo_incomum\guarda-chuva.png">
+                <h3>Acessórios de moda e estilo (In)útil.</h3>
+                <h3>Design para quem gosta de ser do contra (senso).</h3>
             </div>
             <div class="card">
-                <h3></h3>
-                <img src="">
-                <h4></h4>
-                <p></p>
+                <h2>Entretenimento Irrisório</h2>
+                <img src="images\lazer_existencial\quebra-cabeça.png">
+                <h3>Dilemas existenciais recreativos.</h3>
+                <h3>Jogos e passatempos que testam os limites da paciência.</h3>
             </div>
         </section>
     </main>
     <footer>
-
+        <h3>&reg; Contra-Senso Design</h3>
+        <p>Na Contra-Senso, não criamos soluções. Criamos perguntas.</p>
+        <p>Nossos produtos são peças de arte utilitária feitas para quem valoriza o debate acima do conforto.</p> 
     </footer>
 </body>
 </html>
