@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "nome": "Caneca com Alça Interna",
+        "valor": 39.90,
+        "imagem": "images/gastronomia_conflitante/caneca.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Para quem gosta de desafios. Alça interna, design minimalista, funcionalidade desafiadora. Perfeita para testar sua coordenação motora."
+    },
+    {
+        "id": 2,
+        "nome": "Tábua de Cortar de Vidro Temperado Curvo",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/tabua.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Além do som agoniante da faca no vidro, a curvatura garante que qualquer legume cortado role imediatamente para fora da bancada."
+    },
+    {
+        "id": 3,
+        "nome": "Frigideira com Centro Elevado",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/frigideira.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "O óleo e os alimentos sempre se acumulam nas bordas, deixando o centro — onde o fogo é mais forte — perfeitamente vazio e seco."
+    },
+    {
+        "id": 4,
+        "nome": "Saleiro com Reconhecimento de Pressão Arterial",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/saleiro.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "O saleiro trava eletronicamente se detectar que você já temperou a comida duas vezes. Ele emite um som de ambulância se você tentar forçar a abertura."
+    },
+    {
+        "id": 5,
+        "nome": "Prato de sopa convexo",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/prato.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Um prato que é curvado para cima. A sopa escorre pelas bordas, tornando a refeição uma corrida contra a gravidade."
+    },
+    {
+        "id": 6,
+        "nome": "Faca com lâmina de borracha",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/faca.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Cortar um bife vira um exercício de fisioterapia. Design ergonômico, eficácia zero."
+    },
+    {
+        "id": 7,
+        "nome": "Colher com Furo Central",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/colher.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Perfeita para quem está de dieta ou para quem gosta de ver o caldo escorrer enquanto tenta se alimentar."
+    },
+    {
+        "id": 8,
+        "nome": "Garfo com contador de calorias",
+        "valor": 0,
+        "imagem": "images/gastronomia_conflitante/garfo.png",
+        "categoria": "Gastronomia Conflitante",
+        "descrição": "Este garfo de prata esterlina possui um sensor de movimento de alta precisão na base. A cada garfada que chega à sua boca, ele emite um som estridente e envia uma notificação para o seu celular com a frase: 'Sério isso?' Não calcula calorias, apenas julga suas escolhas alimentares em tempo real."
+    },
+    {
+        "id": 9,
+        "nome": "Cadeira de balanço com travas",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Balança apenas na sua imaginação. Para quem gosta de emoção controlada. Combina o visual relaxante de uma cadeira de balanço com a estabilidade de uma cadeira fixa."
+    },
+    {
+        "id": 10,
+        "nome": "Planta suculenta que grita",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Ela diz coisas como 'você não me regou ontem' e 'tenho calor'. Vem com tampões de ouvido incluídos."
+    },
+    {
+        "id": 11,
+        "nome": "Espelho que dá conselhos não solicitados",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Um espelho que, ao detectar sua presença, exibe frases como 'Essa roupa de novo?' ou 'Dormiu mal, né?'."
+    },
+    {
+        "id": 12,
+        "nome": "Tapete de boas-vindas",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "'Por Favor, Vá Embora'. Feito de fibra de coco natural. Um design elegante para a sua entrada que poupa o trabalho de ter que puxar conversa com visitas indesejadas."
+    },
+    {
+        "id": 13,
+        "nome": "Vela Aroma de 'Esqueci o Gás Ligado'",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Uma vela de luxo que exala um leve cheiro de preocupação. Ideal para quem sente falta de adrenalina no dia a dia."
+    },
+    {
+        "id": 14,
+        "nome": "Sofá de areia movediça",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Um sofá extremamente macio que, uma vez que você senta, ele começa a te 'engolir' lentamente até que você precise de ajuda profissional para levantar."
+    },
+    {
+        "id": 15,
+        "nome": "Travesseiro de alarme despertador silencioso",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Em vez de tocar um alarme barulhento, ele apenas vibra violentamente e sussurra passivo-agressivamente na sua orelha: 'Mais cinco minutos e você vai passar vergonha no trabalho'."
+    },
+    {
+        "id": 16,
+        "nome": "*Quadro que te segue com olhar",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Um retrato a óleo cujos olhos são câmeras que giram fisicamente para te encarar em qualquer canto da sala."
+    },
+    {
+        "id": 17,
+        "nome": "Cortina de Chuveiro de Papel Higiênico",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Oferece total privacidade até que você ligue a água. Ideal para quem gosta de banhos extremamente rápidos e de viver no limite."
+    },
+    {
+        "id": 18,
+        "nome": "Luminária de Teto 'Eclipse Permanente'",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Uma luminária de cristal belíssima que projeta luz apenas para cima, mantendo o ambiente em uma penumbra dramática e impossível de ler qualquer coisa."
+    },
+    {
+        "id": 19,
+        "nome": "Porta-Retrato de Memória Curta",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Interiores Improváveis",
+        "descrição": "Um porta-retrato digital que apaga a foto e exibe um erro de sistema sempre que você tenta mostrá-la para alguém. Para valorizar o momento presente (porque ele não vai durar)."
+    },
+    {
+        "id": 20,
+        "nome": "Relógio com 13 horas",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Hora extra grátis todos os dias! Nunca mais se atrase para o almoço. (O relógio não avança, apenas retrocede)."
+    },
+    {
+        "id": 21,
+        "nome": "Óculos de grau com olho atento",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Ideal para aulas/ reuniões chatas, você pode cochilar e continua parecendo atento e interessado."
+    },
+    {
+        "id": 22,
+        "nome": "Guarda-chuva com furos",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Perfeito para dias de garoa leve, se você não se importar de se molhar um pouco. Deixa a luz do sol entrar. Acessório fashion para quem não teme a chuva."
+    },
+    {
+        "id": 23,
+        "nome": "Capa de chuva de papel crepom",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Elegante e colorida, até a primeira gota de água cair e ela começar a derreter e tingir sua pele."
+    },
+    {
+        "id": 24,
+        "nome": "Sapatos de Sola de Ímã",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Extremamente elegantes, mas se você passar perto de uma geladeira ou estrutura de metal, ficará preso até que alguém te ajude. Ótimo para quem quer 'fixar raízes'."
+    },
+    {
+        "id": 25,
+        "nome": "Gravata de Chumbo",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Para o executivo que quer sentir o peso de suas decisões. Garante uma postura impecável, ou uma dor nas costas inesquecível."
+    },
+    {
+        "id": 26,
+        "nome": "Bolsa de Mão Sem Abertura",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Estilo Incomum",
+        "descrição": "Uma peça de couro legítimo, costurada em todos os lados. O acessório definitivo para quem já tem tudo e não precisa carregar nada (literalmente)."
+    },
+    {
+        "id": 27,
+        "nome": "Quebra-Cabeça de 500 Peças Totalmente Branco",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "Chamado de 'Paz Interior', ele vem com uma peça faltando de fábrica para ensinar sobre a imperfeição da vida."
+    },
+    {
+        "id": 28,
+        "nome": "Fone de Ouvido de Pensamento",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "Não tem conexão Bluetooth nem cabo. O silêncio absoluto permite que você ouça apenas seus próprios dilemas internos."
+    },
+    {
+        "id": 29,
+        "nome": "Cubo mágico única cor",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "Para quem quer a satisfação de resolver um problema complexo sem nenhum esforço ou mudança visual."
+    },
+    {
+        "id": 30,
+        "nome": "Baralho de espadas",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "O jogo nunca termina porque ninguém consegue ganhar (ou todos ganham ao mesmo tempo), quando todas as cartas são Ás de Espadas."
+    },
+    {
+        "id": 31,
+        "nome": "Pet de Estimação de Gelo",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "Um bloco de gelo esculpido com feições adoráveis. Ele não late, não solta pelo, mas exige que você mantenha a casa a -10°C se não quiser vê-lo 'partir' em poucas horas."
+    },
+    {
+        "id": 32,
+        "nome": "Dardo de Ponta de Ventosa para Alvos de Metal",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "A frustração de nunca conseguir fixar um ponto, ensinando que o importante não é o alvo, mas o arremesso inútil."
+    },
+    {
+        "id": 33,
+        "nome": "Livro de 500 Páginas com a Mesma Frase",
+        "valor": 0,
+        "imagem": "",
+        "categoria": "Entretenimento Irrisório",
+        "descrição": "Intitulado 'A Repetição do Cotidiano', o livro contém a frase 'E amanhã será igual' em todas as linhas, de todas as páginas."
+    }
+]
