@@ -8,7 +8,7 @@ fetch('produtos.json')
       card.innerHTML = `
         <img src="${produto.imagem}" alt="${produto.nome}">
         <h3>${produto.nome}</h3>
-        <p>${produto.descricao}</p>
+        <p>${produto.descrição}</p>
         <span class="valor">R$ ${produto.valor.toFixed(2)}</span>
         <button>Comprar</button>
       `;

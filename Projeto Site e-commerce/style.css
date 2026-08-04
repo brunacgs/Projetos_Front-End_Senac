@@ -187,7 +187,6 @@ header{
         aspect-ratio: 2 / 3;
         object-fit: cover;
         border-radius: 10px;
-
     }
 }
 
@@ -206,3 +205,33 @@ footer{
         color:#c58a6a;
     }
 }
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 2px 5px;
+    .card-produto {
+        max-width: 260px;
+        background-color: #c58a6a;
+        border: 1px solid #d69a7a;
+        border-radius: 10px;
+        padding: 10px 6px;
+        text-align: center;
+        h3{
+            font-family: 'Montserrat', sans-serif;
+            color: #e0d9cc;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            color: #032933;
+        }
+        img {
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+}
+
