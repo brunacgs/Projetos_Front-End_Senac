@@ -8,18 +8,32 @@
 </head>
 <body>
     <header>
-        <img src="Images\logopade.png" alt="Logo da P.A.D.E." width="160px">
-        <h1>Protocolo de Atrasos & Desculpas Esfarrapadas</h1>
+        <div class="logo"><img src="Images\logopade.png" alt="Logo da P.A.D.E." width="160px"></div>
+        <div class="titulo"><h1>Protocolo de Atrasos & Desculpas Esfarrapadas</h1></div>
     </header>
     <main>
         <div class="intro">
             <h2>A arte de inventar desculpas profissionais.</h2>
-            <h3>Este site foi desenvolvido para te ajudar a manter a reputação de 'pessoa ocupada', não de 'pessoa irresponsável'. Use com moderação.</h3>
-            <button onclick="alerta()" class="alerta">Alerta</button>
+            <h3>Este site foi desenvolvido para te ajudar a manter a reputação de 'pessoa ocupada', não de 'pessoa irresponsável'. <br>Use com moderação.</h3>
+            <button onclick="alerta()" class="botaoalerta">Alerta</button>
         </div>
-       <div class="dicadia">
+        <div class="desculpadodia">
             <h3 id="desculpaaleatoria">Dica de Desculpa do Dia!</h3>
-            <button onclick="mudar()" class="botaodica">Gerar Dica do Dia</button>
+            <button onclick="gerardica()" class="botao">Gerar Dica do Dia</button>
+        </div>
+        <div class="desculpapersonalizada">
+            <h3>Gere aqui sua desculpa personalizada:</h3>
+            <label>Nome do seu chefe:</label>
+            <input id="nomechefe">
+            <br><button onclick="personalizardesculpa()" class="botao">Gerar desculpa personalizada</button>
+        </div>
+        <div class="calculostress">
+            <h3>Calcule o nível de stress do seu chefe com seu atraso de hoje:</h3>
+            <label>Quantos minutos você chegou atrasado?</label>
+            <input id="minutos">
+            <br><label>De 1 a 5, o quão estressado é seu chefe?</label>
+            <input id="notastress">
+            <br><button onclick="calcularstress()" class="botao">Calcular nível de stress</button>
         </div>
     </main>        
     <footer>
