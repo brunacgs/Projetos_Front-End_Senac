@@ -14,30 +14,36 @@ body{
 }
 
 header{
-    padding-left: 10px 2px 10px 2px;
     display: flex;
-    flex-direction: row;
-    justify-content:space-arround;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
+
 
 .intro{
     padding: 5px;
+    text-align: center;
 }
 
-.alerta{
+.botaoalerta{
     background-color: #D9534F;
     width: 100px;
 }
 
-.dicadia{
+.desculpadodia, .desculpapersonalizada, .calculostress{
     background-color: #e0e0e0;
-    padding: 3px 5px 3px 5px;
+    margin: 20px;
+    padding: 10px;
     text-align: center;
     
 }
-.botaodica{
+
+.botao{
     background-color: #2F4F6F;
-    color: #FBF8F0
+    color: #FBF8F0;
+    padding: 5px;
+    margin: 10px;
 }
+
+
