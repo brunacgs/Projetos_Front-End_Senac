@@ -11,39 +11,75 @@ body{
     button{
         font-family: 'Merriweather', serif;
     }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .intro{
+        padding: 5px;
+        text-align: center;
+    }
+    .botaoalerta{
+        background-color: #D9534F;
+        width: 100px;
+    }
+    .desculpadodia, .desculpapersonalizada, .calculostress, .comoagir, .altorisco{
+        background-color: #e0e0e0;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .botao{
+        background-color: #2F4F6F;
+        color: #FBF8F0;
+        padding: 5px;
+        margin: 10px;
+    }
 }
 
-header{
+.panicoativo{
+    background-color: darkred !important;
+    color: white !important;
+}
+#conteudoprincipal.emergencia{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 40px;
-}
-
-
-.intro{
-    padding: 5px;
+    align-items: center;
+    height: 80vh;
     text-align: center;
 }
-
-.botaoalerta{
-    background-color: #D9534F;
-    width: 100px;
+.textograve{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: yellow;
+    margin-bottom: 20px;
+    animation: piscar 0.5s infinite;
+}
+.botaosalvar{
+    background-color: #00ff00;
+    color: black;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+@keyframes piscar{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-.desculpadodia, .desculpapersonalizada, .calculostress{
-    background-color: #e0e0e0;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    
+.esconder {
+    display: none;
 }
 
-.botao{
-    background-color: #2F4F6F;
-    color: #FBF8F0;
-    padding: 5px;
-    margin: 10px;
+.aparecer {
+    display: verificar;
 }
 
 
