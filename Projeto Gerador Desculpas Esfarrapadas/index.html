@@ -11,13 +11,13 @@
         <div class="logo"><img src="Images\logopade.png" alt="Logo da P.A.D.E." width="160px"></div>
         <div class="titulo"><h1>Protocolo de Atrasos & Desculpas Esfarrapadas</h1></div>
     </header>
-    <main>
-        <div class="intro">
+    <main id="conteudoprincipal">
+        <div class="intro card">
             <h2>A arte de inventar desculpas profissionais.</h2>
             <h3>Este site foi desenvolvido para te ajudar a manter a reputação de 'pessoa ocupada', não de 'pessoa irresponsável'. <br>Use com moderação.</h3>
             <button onclick="alerta()" class="botaoalerta">Alerta</button>
         </div>
-        <div class="desculpadodia">
+        <div class="desculpadodia card">
             <h3 id="desculpaaleatoria">Dica de Desculpa do Dia!</h3>
             <button onclick="gerardica()" class="botao">Gerar Dica do Dia</button>
         </div>
@@ -27,13 +27,25 @@
             <input id="nomechefe">
             <br><button onclick="personalizardesculpa()" class="botao">Gerar desculpa personalizada</button>
         </div>
-        <div class="calculostress">
-            <h3>Calcule o nível de stress do seu chefe com seu atraso de hoje:</h3>
+        <div class="calculostress" id="teste">
+            <h3>Calcule o nível de estresse acumulado do seu chefe com seu atraso de hoje:</h3>
             <label>Quantos minutos você chegou atrasado?</label>
             <input id="minutos">
             <br><label>De 1 a 5, o quão estressado é seu chefe?</label>
             <input id="notastress">
             <br><button onclick="calcularstress()" class="botao">Calcular nível de stress</button>
+        </div>
+        <div class="comoagir">
+            <h3>Saiba como agir diante das unidades de estresse causadas no seu chefe:</h3>
+            <label>Unidades de stress:</label>
+            <input id="stresscalculado" placeholder="Nível de estresse calculado">
+            <br><button onclick="mostrarcomoagir()" class="botao">Como agir</button>
+            <h3>Ação recomendada:</h3>
+            <h3 id="comoagir">_</h3>
+        </div>
+        <div class="altorisco">
+            <h3>Se sua situação está MUITO COMPLICADA, obtenha ajuda acionando o botão abaixo:</h3>
+            <br><button id="botaopanico" onclick="acionarpanico()" >BOTÃO DE PÂNICO!</button>
         </div>
     </main>        
     <footer>
