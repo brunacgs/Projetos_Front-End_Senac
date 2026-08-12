@@ -42,32 +42,25 @@ function mostrarcomoagir()
     }
 }
 
+let conteudooriginalbackup = document.getElementById('conteudomain').innerHTML;
+
 function acionarpanico()
 {
-    const corpo = document.body;
-    const main = document.getElementById('conteudoprincipal');
+    const main = document.getElementById('conteudomain');
 
-    corpo.classList.add('panicoativo');
+    conteudooriginalbackup = main.innerHTML;
+
+    main.classList.add('panicoativo');
 
     main.innerHTML = `
-        <div class="emergencia">
-            <p class= "textograve">FUJA IMEDIATAMENTE!"</P>
-            <br>
-            <button class="botaosalvar" onclick="restaurarpagina()">ALARME FALSO! VOLTAR.</buton>
-        </div>
-    `;
+        <h1 class="textoemergencia">FUJA IMEDIATAMENTE!!!</h1>
+        <br><button class="botao" onclick="restaurarpagina()">ALARME FALSO! Volte ao trabalho criativo de desculpas.</button>
+    `
 }
-
 function restaurarpagina()
 {
-    const corpo = document.body;
-    const main = document.getElementById('conteudoprincipal');
+    const main = document.getElementById('conteudomain');
 
-    corpo.classList.remove('panicoativo');
-
-    main.innerHTML = `
-        <p>Volte ao trabalho criativo de desculpas.</p>
-        <br>
-        <button onclick="acionarpanico">BOTÃO DE PÂNICO!</button>
-    `;
+    main.innerHTML = conteudooriginalbackup;
+    main.classList.remove('panicoativo');
 }

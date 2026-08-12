@@ -8,26 +8,26 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="Images\logopade.png" alt="Logo da P.A.D.E." width="160px"></div>
-        <div class="titulo"><h1>Protocolo de Atrasos & Desculpas Esfarrapadas</h1></div>
+        <div><img src="Images\logopade.png" alt="Logo da P.A.D.E." width="160px"></div>
+        <div><h1>Protocolo de Atrasos & Desculpas Esfarrapadas</h1></div>
     </header>
-    <main id="conteudoprincipal">
-        <div class="intro card">
+    <main id="conteudomain">
+        <div class="card">
             <h2>A arte de inventar desculpas profissionais.</h2>
             <h3>Este site foi desenvolvido para te ajudar a manter a reputação de 'pessoa ocupada', não de 'pessoa irresponsável'. <br>Use com moderação.</h3>
             <button onclick="alerta()" class="botaoalerta">Alerta</button>
         </div>
-        <div class="desculpadodia card">
+        <div class="card">
             <h3 id="desculpaaleatoria">Dica de Desculpa do Dia!</h3>
             <button onclick="gerardica()" class="botao">Gerar Dica do Dia</button>
         </div>
-        <div class="desculpapersonalizada">
+        <div class="card">
             <h3>Gere aqui sua desculpa personalizada:</h3>
             <label>Nome do seu chefe:</label>
             <input id="nomechefe">
             <br><button onclick="personalizardesculpa()" class="botao">Gerar desculpa personalizada</button>
         </div>
-        <div class="calculostress" id="teste">
+        <div class="card">
             <h3>Calcule o nível de estresse acumulado do seu chefe com seu atraso de hoje:</h3>
             <label>Quantos minutos você chegou atrasado?</label>
             <input id="minutos">
@@ -35,7 +35,7 @@
             <input id="notastress">
             <br><button onclick="calcularstress()" class="botao">Calcular nível de stress</button>
         </div>
-        <div class="comoagir">
+        <div class="card">
             <h3>Saiba como agir diante das unidades de estresse causadas no seu chefe:</h3>
             <label>Unidades de stress:</label>
             <input id="stresscalculado" placeholder="Nível de estresse calculado">
@@ -43,9 +43,9 @@
             <h3>Ação recomendada:</h3>
             <h3 id="comoagir">_</h3>
         </div>
-        <div class="altorisco">
-            <h3>Se sua situação está MUITO COMPLICADA, obtenha ajuda acionando o botão abaixo:</h3>
-            <br><button id="botaopanico" onclick="acionarpanico()" >BOTÃO DE PÂNICO!</button>
+        <div class="card">
+            <h3>Se seu emprego está em risco, obtenha ajuda acionando o botão abaixo:</h3>
+            <br><button onclick="acionarpanico()" class="botaopanico">BOTÃO DE PÂNICO!</button>
         </div>
     </main>        
     <footer>
