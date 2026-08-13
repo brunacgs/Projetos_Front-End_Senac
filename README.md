@@ -53,3 +53,5 @@ Repositório com os projetos práticos desenvolvidos durante o curso de Front-En
 <hr>
 👩‍💻 Autora
 <br>Desenvolvido por Bruna Gomes, como parte do curso de Front-End do Senac.
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
