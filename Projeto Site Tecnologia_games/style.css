@@ -1,41 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body{
     background-color: #0b0f1a;
-    h1{
+    h1, h2{
         color: #F8FaFC;
+        font-family: "Orbitron", sans-serif;
 
     }
-    h2, h3{
+    h3, p{
         color: #94a3b8;
-    }
-    p{
-        color: #94a3b8;
+        font-family: "Poppins", sans-serif;
     }
 }
 
-.logo{
-    display: flex;
+button{
+    font-family: "Orbitron", sans-serif;
+    padding: 1.5%;
 }
-ul{
+
+header{
     display: flex;
-    justify-content: space-around;
-    a{
-        color: #7c3aed;
-        text-decoration: none;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1%;
+    flex-wrap: wrap;
+    .imglogo{
+        max-width:130px;
+    }    
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 0.02%;
+        width: 30%;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding:0;
+            gap: 30px;
+            li{
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                a{
+                    font-family: "Orbitron", sans-serif;
+                    color: #7c3aed;
+                    text-decoration: none;
+                    align-self: center;
+                }
+            }
+        }
     }
 }
 
 main{
-    padding: 20px;
-    .intro1, .intro2{
-        padding: 20px;
-        background-color: #111827;
-        border-radius: 20px;
-        text-align: center;
-    }
-    .cardsintro{
-        padding: 20px;
-        background-color: #0B0F1A;
-        border-radius: 20px;
+    .intro{
+        background-image: 
+            linear-gradient(
+                90deg,
+                rgba(11, 15, 26, 0.98) 0%,
+                rgba(11, 15, 26, 0.85) 40%,
+                rgba(11, 15, 26, 0.25) 100%
+            ),
+            url("images/setup.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
         display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 2%;
+        gap: 2%;
+        .intro1{
+            display: flex;
+            flex-direction: column;
+        }
+        .intro2{
+            display: flex;
+            flex-direction: column;      
+            margin: 0%;    
+        }
+    }
+    .destaques{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+.cardsintro{
+    padding: 5%;
+    border-radius: 20px;
+    display: flex;
+    card{
+        padding: 20px;
     }
 }
