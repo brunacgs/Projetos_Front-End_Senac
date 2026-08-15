@@ -26,44 +26,52 @@
             <div class="intro2">
                 <h1>LEVEL UP NO SEU SETUP</h1>
                 <p>Encontre periféricos, acessórios e equipamentos para deixar sua experiência ainda melhor. Monte seu setup com produtos escolhidos para quem leva tecnologia a sério.</p>
-                <button>VER CATÁLOGO</button>
+                <button class="botao1">VER CATÁLOGO</button>
             </div>
         </section>
         <section class="destaques">
-            <h2>Destaques da semana</h2>
+            <h4>Queremos te conhecer melhor, digite seu nome e tenha acesso a promoções especiais:</h4>
+            <input required type="text" placeholder="Insira seu nome" id="cliente">
+            <button onclick="ativarpromo()" class="botao1">ATIVAR PROMO!</button>
+            <h2 id="saudacoes">Destaques da semana</h2>
             <h3>Os favoritos da comunidade Pixel Store:</h3>
                 <div class="cardsintro">
                     <card>
                         <h2>Mouse Gamer</h2>
                         <img src="images\mouse.png">
                         <p>Precisão e velocidade para transformar cada movimento em vantagem.</p>
-                        <h3>R$ 120,00</h3>
+                        <h3 id="preco1">R$ 120,00</h3>
+                        <h3 id="preco11"></h3>
                         <button>VER PRODUTO</button>
                     </card>
                     <card>
                         <h2>Headset Gamer</h2>
                         <img src="images\headset.png">
                         <p>Som imersivo e comunicação clara para você entrar de vez no jogo.</p>
-                        <h3>R$ 150,00</h3>
+                        <h3 id="preco2">R$ 150,00</h3>
+                        <h3 id="preco21"></h3>
                         <button>VER PRODUTO</button>
                     </card>
                     <card>
                         <h2>Controle Gamer</h2>
                         <img src="images\controle.png">
                         <p>Conforto e precisão para jogar do seu jeito.</p>
-                        <h3>R$ 220,00</h3>
+                        <h3 id="preco3">R$ 220,00</h3>
+                        <h3 id="preco31"></h3>
                         <button>VER PRODUTO</button>
                     </card>
                 </div>
         </section>
     </main>
+    <hr>
     <footer>
-        <img scr="images\logo_completa.png">
+        <img src="images\logo_completa.png">
         <p>
             @pixelstore
             <br>Rua dos Bobos, n° 0
             <br>Vale do Silício - Marte
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
