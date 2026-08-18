@@ -17,8 +17,65 @@
             </ul>    
         </nav>  
     </header>
+    <hr>
     <main>
-        
+        <section class="catalogo">
+            <h2>Catálogo de produtos Pixel Store</h2>
+            <div class="cardscatalogo">
+                    <card>
+                        <h2>Mouse Gamer</h2>
+                        <img src="images\mouse.png">
+                        <p>Precisão e velocidade para transformar cada movimento em vantagem.</p>
+                        <h3 id="preco1">R$ 120,00</h3>
+                        <h3 id="preco11"></h3>
+                        <button>VER PRODUTO</button>
+                    </card>
+                    <card>
+                        <h2>Headset Gamer</h2>
+                        <img src="images\headset.png">
+                        <p>Som imersivo e comunicação clara para você entrar de vez no jogo.</p>
+                        <h3 id="preco2">R$ 150,00</h3>
+                        <h3 id="preco21"></h3>
+                        <button>VER PRODUTO</button>
+                    </card>
+                    <card>
+                        <h2>Controle Gamer</h2>
+                        <img src="images\controle.png">
+                        <p>Conforto e precisão para jogar do seu jeito.</p>
+                        <h3 id="preco3">R$ 220,00</h3>
+                        <h3 id="preco31"></h3>
+                        <button>VER PRODUTO</button>
+                    </card>
+                    <card>
+                        <h2>Teclado Mecânico</h2>
+                        <img src="images\teclado.png">
+                        <p>Equilibrio perfeito entre firmeza e suavidade das teclas, mais conforto para seu jogo, </p>
+                        <h3 id="preco3">R$ 180,00</h3>
+                        <h3 id="preco31"></h3>
+                        <button>VER PRODUTO</button>
+                    </card>
+                </div>
+        </section>
+        <main>
+        <fieldset>
+            <legend><img src="images\icone.png">SIMULAR COMPRA</legend>
+                <form>
+                    <label>Produto:</label>
+                    <select>
+                        <option>Mouse Gamer</option>
+                        <option>Headset Gamer</option>
+                        <option>Controle Gamer</option>
+                        <option>Teclado Mecânico</option>
+                    </select>
+                    <label>Quantidade:</label>
+                    <input>
+                    <p>*10% de desconto na compra de 3 unidades
+                    <br>*Frete grátis para compras acima de R$500,00</p>
+                    <button class="botao1" onclick="calcularcompra()">Calcular Total</button>
+                    <h4 id="valortotal"></h4>
+                    <h4 id="frete"></h4>
+                </form>
+        </fieldset>
     </main>
     <hr>
     <footer>
