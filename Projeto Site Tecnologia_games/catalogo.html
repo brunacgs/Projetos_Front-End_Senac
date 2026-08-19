@@ -61,19 +61,19 @@
             <legend><img src="images\icone.png">SIMULAR COMPRA</legend>
                 <form>
                     <label>Produto:</label>
-                    <select>
-                        <option>Mouse Gamer</option>
-                        <option>Headset Gamer</option>
-                        <option>Controle Gamer</option>
-                        <option>Teclado Mecânico</option>
+                    <select id="produto">
+                        <option value="Mouse Gamer">Mouse Gamer</option>
+                        <option value="Headset Gamer">Headset Gamer</option>
+                        <option value="Controle Gamer">Controle Gamer</option>
+                        <option value="Teclado Mecânico">Teclado Mecânico</option>
                     </select>
                     <label>Quantidade:</label>
-                    <input>
+                    <input type="number" id="qtd">
                     <p>*10% de desconto na compra de 3 unidades
                     <br>*Frete grátis para compras acima de R$500,00</p>
-                    <button class="botao1" onclick="calcularcompra()">Calcular Total</button>
-                    <h4 id="valortotal"></h4>
-                    <h4 id="frete"></h4>
+                    <button class="botao1" onclick="calcularcompra()" type="button">Calcular Total</button>
+                    <h4 id="msg1"></h4>
+                    <h4 id="msg2"></h4>
                 </form>
         </fieldset>
     </main>
