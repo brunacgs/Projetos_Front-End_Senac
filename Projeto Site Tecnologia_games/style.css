@@ -170,6 +170,8 @@ main{
     font-weight: 600;
     cursor: pointer;
     transition: all 0.25s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 .botao1:hover{
     transform: translateY(-3px) scale(1.02);
