@@ -23,20 +23,22 @@
             <legend><img src="images\icone.png">FALE CONOSCO</legend>
             <form>
                 <label>Nome:</label>
-                <input>
+                <input type="text" placeholder="Digite seu nome completo" id="nome">
                 <label>E-mail:</label>
-                <input>
+                <input type="email" placeholder="Insira seu email" id="email">
                 <label>Idade:</label>
-                <input>
+                <input type="number" placeholder="Insira sua idade" id="idade">
                 <label>Assunto:</label>
                 <select>
-                    <option>Dúvida sobre produto</option>
-                    <option>Problema com compra</option>
-                    <option>Outros</option>
+                    <option value="Dúvida sobre produto">Dúvida sobre produto</option>
+                    <option value="Problema com compra">Problema com compra</option>
+                    <option value="Outros">Outros</option>
                 </select>
                 <label>Mensagem:</label>
-                <textarea rows="3" placeholder="Escreva aqui sua mensagem."></textarea>
-                <button class="botao1">Enviar</button>
+                <textarea type="text" rows="5" placeholder="Escreva aqui sua mensagem."></textarea>
+                <button type="button" id="enviarmsg" onclick="enviar()" class="botao1">Enviar</button>
+                <p id="msg1"></p>
+                <p id="msg2"></p>
             </form>
         </fieldset>
     </main>
