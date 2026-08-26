@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Aleatória</title>
+    <link rel= stylesheet href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Playlist Aleatória</h1>
+    </header>
+    <main>
+        <div>
+            <h3>Gênero musical: Sim</h2>
+            <p>Não existe ordem. <br>Não existe lógica. <br>Só música boa!</p>
+            <p>Rock, pop, metal, rap, MPB, latina, funk, eletrônica, reggae, clássica... <br>se eu gosto, entra!</p>
+            <h3>Aperte o play e aceite o caos.</h4>
+        </div>
+        <div class="card">
+            <h2>Editar Playlist</h2>
+            <label>Insira o nome da música desejada</label>
+            <input id="inputmusica">
+            <button onclick="addmusica()">Adicionar na Playlist</button>
+            <button onclick="verificar()">Verificar se já foi adicionada</button>
+            <button onclick="posicao()">Mostrar posição na Playlist</button>
+            <button onclick="remover()">Remover da Playlist</button>
+            <h3 cass="saida" id="saida"></h3>
+        </div>
+        <div class="card">
+            <div>
+                <h2>Playlist completa</h2>
+                <p>De Vivaldi a Racionais em uma mesma sessão.</p>
+                <p></p>
+            </div>
+            <div>
+                <button onclick="tocarprimeira()">Tocar primeira música</button>
+                <button onclick="tocarultima()">Trocar última música</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
