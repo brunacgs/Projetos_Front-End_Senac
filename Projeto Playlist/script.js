@@ -18,7 +18,7 @@ let musicas = [
     'Bluesman',
     'Latinoamérica',
     'Tití me preguntó',
-    'Fous seasons',
+    'Four seasons',
     'Man! I feel like a woman',
     'Ovelha negra',
     'Poeira',
